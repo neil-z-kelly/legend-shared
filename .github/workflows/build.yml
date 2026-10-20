@@ -24,7 +24,6 @@ on: [push, pull_request]
 jobs:
   build:
     name: Build
-    if: "github.repository == 'finos/legend-shared'"
     runs-on: ubuntu-latest
     steps:
     - name: Checkout repo
